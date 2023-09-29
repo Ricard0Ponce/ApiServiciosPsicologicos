@@ -14,6 +14,7 @@ public class Alumno {
     @Id //Asigna la variable como id
     @GeneratedValue  //Asigna valores al elemento creado con Hibernate
     private Long id;
+    private Long matricula;  //String o Long?
     private String nombre;
     private String apellidoP;
     private String apellidoM;

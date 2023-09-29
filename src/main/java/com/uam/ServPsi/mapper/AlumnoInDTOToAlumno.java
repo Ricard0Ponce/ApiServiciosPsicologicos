@@ -15,6 +15,7 @@ public class AlumnoInDTOToAlumno implements IMapper<AlumnoInDTO, Alumno>{
         alumno.setEmail(in.getEmail());
         alumno.setGenero(in.getGenero());
         alumno.setTelefono(in.getTelefono());
+        alumno.setMatricula(in.getMattricula());
         alumno.setConCita(false);//Cada que crea un elemento define cita como false
         return alumno;
     }
